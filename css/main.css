@@ -46,9 +46,8 @@ p{
 
 .lang-switcher{
   position: absolute;
-  top: 30px;
-  right: 20px;
-  transform: translateX(-50%);
+  top: 13px;
+  right: 17px;
 }
 
 .flex-container--center{
@@ -102,7 +101,7 @@ font-size: 1.8em;
 
 .vert-link-left{
   position: absolute;
-  top: 25%;
+  top: 137px;
   left: -72px;
   transform: rotateZ(-90deg);
 }
@@ -117,7 +116,7 @@ font-size: 1.8em;
 
 .vert-link-left--de{
   position: absolute;
-  top: 25%;
+  top: 137px;
   left: -46px;
   transform: rotateZ(-90deg);
 }
@@ -125,14 +124,14 @@ font-size: 1.8em;
 
 .vert-link-right{
     position: absolute;
-    top: 25%;
+    top: 137px;
     right: -74px;
     transform: rotateZ(-90deg);
 }
 
 .vert-link-right--de{
     position: absolute;
-    top: 25%;
+    top: 137px;
     right: -50px;
     transform: rotateZ(-90deg);
 }
@@ -177,15 +176,14 @@ font-size: 1.8em;
 }
 
 
-
-@media only screen and (min-width: 48em) {
-
+@media only screen and (min-width: 767px){
   .flex-container--center{
     display: flex;
-    align-items: center;
+    align-items: baseline;
     justify-content: center;
-    height: 100vh;
+    padding-top: 10vh;
   }
+
 
   .content-wrapper{
     padding-top: 0;
@@ -210,6 +208,28 @@ font-size: 1.8em;
 }
 
 
+ @media only screen and (min-width: 867px) and (min-height: 780px){
+    .flex-container--center{
+      display: flex;
+      align-items: center;
+      height: 100vh;
+      justify-content: center;
+      padding: 0;
+    }
+ }
+
+
+  @media only screen and (min-width: 1020px) and (min-height: 710px){
+    .flex-container--center{
+      display: flex;
+      align-items: center;
+      height: 100vh;
+      justify-content: center;
+      padding: 0;
+    }
+ }
+
+
 @media only screen and (min-width: 55em) {
 
   .profile-img{
@@ -222,16 +242,31 @@ font-size: 1.8em;
 
 }
 
-
-
-@media only screen and (min-width: 85em) {
-
+@media only screen and (min-width: 1240px) and (min-height: 590px){
   .flex-container--center{
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
+    padding: 0;
   }
+}
+
+
+@media only screen and (min-width: 85em) and (min-height: 710px){
+  .flex-container--center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 0;
+  }
+}
+
+
+
+
+@media only screen and (min-width: 85em) {
 
   .content-wrapper{
     padding-top: 0;
